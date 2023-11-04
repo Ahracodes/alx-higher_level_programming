@@ -2,5 +2,5 @@
 """ Class Rectangle"""
 
 class Rectangle:
-    """ Empty class """
+    """ Empty class Rectangle """
     pass
