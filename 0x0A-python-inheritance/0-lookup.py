@@ -2,11 +2,13 @@
 
 def lookup(obj):
     """
-    Return a list of attr and methods
+    Return a list of attr and methods.
+
     Args:
-    Obj: Object to list the methods and attr for
+        Obj: Object to list the methods and attr for.
+
     Returns:
-    list: list of attributes and methods
+        list: list of attributes and methods associated with obj.
     """
     return dir(obj)
 
