@@ -10,8 +10,8 @@ class Rectangle:
         height (int): height of rctngl.
     """
     def __init__(self, width=0, height=0):
-        self._width = width
-        self._height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
